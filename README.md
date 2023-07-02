@@ -26,7 +26,7 @@ For example, if your commit history is A-B-C-D-E-F with F as HEAD, and you want 
 - Change the lines for both C and D from pick to edit
 - Exit the editor (for vim, this would be pressing Esc and then typing :wq).
 - Once the rebase started, it would first pause at C
-- You would git commit --amend --author="Author Name <email@address.com>"
+- You would git commit --amend --author="hernancontigiani <hernan4790@gmail.com>"
 - Then git rebase --continue
 - It would pause again at D
 - Then you would git commit --amend --author="Author Name <email@address.com>" again
